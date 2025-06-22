@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Playfair+Display&display=swap" rel="stylesheet">
+  <style>
+    @keyframes fadeUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes rotateSun {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    body {
+      background-color: #fcf8f3;
+      font-family: 'Raleway', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px;
+      margin: 0;
+      color: #333;
+      text-align: center;
+    }
+
+    h1 {
+      animation: fadeUp 1.2s ease forwards;
+      opacity: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+      letter-spacing: 0.7px;
+    }
+
+    .button-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #f4f1ee;
+      color: #333;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    .button-link:hover {
+      background: #e7e3df;
+    }
+
+    hr {
+      width: 60px;
+      margin: 50px auto 30px auto;
+      border: none;
+      border-top: 1px solid #ccc;
+    }
+
+    img {
+      max-width: 750px;
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    .sun {
+      margin-top: 30px;
+      font-size: 1.2rem;
+      animation: rotateSun 10s linear infinite;
+    }
+  </style>
+</head>
+<body>
+  <h1>Something wonderful is coming soon</h1>
+  <hr style="margin-top: 50px; margin-bottom: 30px;" />
+  <img src="AA012A-web.jpg" alt="Zohar photo" />
+  <a class="button-link" href="https://www.instagram.com/zoharizackov_" target="_blank">Follow on Instagram</a>
+  <div class="sun">🌞</div>
+</body>
+</html>
